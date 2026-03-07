@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@utility glass {
+  background-color: rgb(255 255 255 / 0.1);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgb(255 255 255 / 0.2);
+  box-shadow: var(--shadow-xl);
+}
+
+body {
+  @apply text-slate-100 min-h-screen antialiased selection:bg-cyan-500/30 overflow-x-hidden;
+  background-color: #0f172a;
+}
+
+.live-bg {
+  background: linear-gradient(-45deg, #09090b, #1e1b4b, #001e36, #09090b);
+  background-size: 300% 300%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Custom scrollbar for modern admin feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-700/50 rounded-full cursor-pointer transition-colors hover:bg-slate-600/50;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-in {
+  animation: fade-in 0.4s ease-out forwards;
+}
