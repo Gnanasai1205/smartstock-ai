@@ -11,6 +11,16 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
+  const handleDemoAdmin = () => {
+    setEmail('admin@smartsocket.ai');
+    setPassword('password123');
+  };
+
+  const handleDemoStaff = () => {
+    setEmail('employee@smartstock.ai');
+    setPassword('password123');
+  };
+
   const handleLogin = async (e) => {
     e.preventDefault();
     setError('');
@@ -123,6 +133,38 @@ const Login = () => {
               )}
             </button>
           </form>
+
+          {/* Demo Credentials Section */}
+          <div className="mt-6">
+            <div className="relative">
+              <div className="absolute inset-0 flex items-center">
+                <div className="w-full border-t border-slate-700"></div>
+              </div>
+              <div className="relative flex justify-center text-sm">
+                <span className="px-2 bg-slate-800/80 text-slate-400">Demo Credentials</span>
+              </div>
+            </div>
+            
+            <div className="mt-4 grid grid-cols-2 gap-3">
+              <button
+                type="button"
+                onClick={handleDemoAdmin}
+                className="flex flex-col items-center justify-center py-2 px-3 border border-slate-700 rounded-lg hover:bg-cyan-500/10 hover:border-cyan-500/30 transition-colors group"
+              >
+                <span className="text-cyan-400 font-medium text-sm group-hover:text-cyan-300">Admin</span>
+                <span className="text-xs text-slate-500">Full Access</span>
+              </button>
+              
+              <button
+                type="button"
+                onClick={handleDemoStaff}
+                className="flex flex-col items-center justify-center py-2 px-3 border border-slate-700 rounded-lg hover:bg-emerald-500/10 hover:border-emerald-500/30 transition-colors group"
+              >
+                <span className="text-emerald-400 font-medium text-sm group-hover:text-emerald-300">Employee</span>
+                <span className="text-xs text-slate-500">Floor View</span>
+              </button>
+            </div>
+          </div>
 
           <div className="mt-8 pt-6 border-t border-slate-700 flex flex-col space-y-2 text-sm text-center">
             <p className="text-slate-400">New Staff Member?</p>

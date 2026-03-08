@@ -124,7 +124,7 @@ exports.seedUsers = async (req, res) => {
     // Create Admin User
     const adminUser = new User({
       name: 'System Admin',
-      email: 'admin@smartstock.ai',
+      email: 'admin@smartsocket.ai',
       password: hashedPassword,
       role: 'admin',
       isApproved: true
@@ -147,7 +147,7 @@ exports.seedUsers = async (req, res) => {
       message: 'Admin and Employee test accounts successfully created',
       credentials: {
         password: 'password123',
-        admin: 'admin@smartstock.ai',
+        admin: 'admin@smartsocket.ai',
         employee: 'employee@smartstock.ai'
       }
     });
