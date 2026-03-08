@@ -193,16 +193,24 @@ npm run dev
 
 
 ### Dashboard
-![Dashboard](https://i.ibb.co/51J6HBC/dashboard.png)
+<img width="798" height="433" alt="image" src="https://github.com/user-attachments/assets/48460880-f2e2-445a-a2fd-f0b6f1056681" />
+
+
+### AI Predictions
+<img width="764" height="386" alt="image" src="https://github.com/user-attachments/assets/738dfeaa-41eb-49ce-ab91-e977499b0a3f" />
+
 
 ### Expanded Products
-![Products](https://i.ibb.co/y4L2s8J/products.png)
+<img width="836" height="469" alt="image" src="https://github.com/user-attachments/assets/46ae2167-8610-4e6b-a328-b1f7483a1f80" />
 
-### Interactive Settings Hub
-![Settings](https://i.ibb.co/3WkL48G/settings.png)
 
 ### AI Predictions Engine
-![AI Predictions](https://i.ibb.co/YPXKxR2/predictions.png)
+<img width="214" height="280" alt="image" src="https://github.com/user-attachments/assets/4353f989-9153-4130-9542-b6f27cbf45eb" />
+
+### Settings
+<img width="805" height="410" alt="image" src="https://github.com/user-attachments/assets/de8480c3-b281-49ae-8ac3-ef6b71aa8c9d" />
+
+
 
 *(Note: These high-fidelity screenshots represent the local live build displaying the WebGL Live Theme and active Llama 3 AI)*
 
