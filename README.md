@@ -240,5 +240,9 @@ Instead of just tracking products, SmartStock AI enables businesses to:
 **Predict inventory risks, analyze stock health, and make intelligent restocking decisions.**
 
 ---
-*Developed during Hackathon by*
-### **Team SmartStock AI**
+## Team Name
+### Team SmartStock AI
+
+## Team Members
+### Sai Abhiram Amrutaluri
+### Gnanasai Goda
