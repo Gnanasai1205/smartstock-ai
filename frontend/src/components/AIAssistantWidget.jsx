@@ -59,7 +59,7 @@ const AIAssistantWidget = () => {
 
       {/* Chat Window */}
       <Draggable nodeRef={nodeRef} handle=".chat-drag-handle" bounds="parent">
-        <div ref={nodeRef} className={`fixed top-24 right-6 w-80 sm:w-96 bg-slate-800 border border-slate-700 rounded-2xl shadow-2xl z-50 transition-opacity duration-300 flex flex-col ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`} style={{ height: '500px', maxHeight: 'calc(100vh - 48px)' }}>
+        <div ref={nodeRef} className={`fixed bottom-24 right-6 w-80 sm:w-96 bg-slate-800 border border-slate-700 rounded-2xl shadow-2xl z-50 transition-opacity duration-300 flex flex-col ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`} style={{ height: '500px', maxHeight: 'calc(100vh - 120px)' }}>
           
           {/* Header */}
           <div className="chat-drag-handle cursor-move flex items-center justify-between bg-slate-900/80 p-4 rounded-t-2xl border-b border-slate-700 text-white hover:bg-slate-900 transition-colors">
