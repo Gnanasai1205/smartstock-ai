@@ -242,3 +242,9 @@ Instead of just tracking products, SmartStock AI enables businesses to:
 ---
 *Developed during Hackathon by*
 ### **Team SmartStock AI**
+
+## 👨‍💻 Team Members
+| Name |
+| :--- |
+| Sai Abhiram Amrutaluri |
+| Ganasai Goda |
