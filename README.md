@@ -246,3 +246,4 @@ Instead of just tracking products, SmartStock AI enables businesses to:
 ## Team Members
 ### Sai Abhiram Amrutaluri
 ### Gnanasai Goda
+### Nekkanti Nandini
